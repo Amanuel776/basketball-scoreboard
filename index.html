@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="home-board">
+            <h1 class="team">Home</h1>
+            <div id="home-score" class="score">
+                0
+            </div>
+            <div class="buttons">
+                <button onclick="addOneHome()" id="add-one-home" class="score-btn">+1</button>
+                <button onclick="addTwoHome()" id="add-two-home" class="score-btn">+2</button>
+                <button onclick="addThreeHome()" id="add-three-home" class="score-btn">+3</button>
+            </div>
+        </div>
+        <div class="guest-board">
+            <h1 class="team">Guest</h1>
+            <div id="guest-score" class="score">
+                0
+            </div>
+            <div class="buttons">
+                <button onclick="addOneGuest()" id="add-one-guest" class="score-btn">+1</button>
+                <button onclick="addTwoGuest()" id="add-two-guest"  class="score-btn">+2</button>
+                <button onclick="addThreeGuest()" id="add-three-guest" class="score-btn">+3</button>
+            </div>
+            
+        </div>
+        <div class="newgame">
+            <button onclick="newGame()" id="newgame-btn" class="newgame-btn">New game</button>
+        </div>
+    </div>
+   <script src="index.js"></script>
+</body>
+</html>

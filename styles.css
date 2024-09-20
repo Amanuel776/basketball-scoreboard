@@ -1,0 +1,73 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 580px;
+    height: 400px;
+    background: #1B244A;
+}
+.home-board,.guest-board{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+.score{
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;  
+    border-radius:  10px;                       
+}
+.team{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    font-size: 40px;
+}
+.score-btn{
+    width: 45px;
+    height: 45px;
+    background: transparent;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+.buttons{
+    display: flex;
+    gap: 11px;
+}
+.newgame-btn:hover,.score-btn:hover{
+    cursor: pointer;
+}
+.newgame{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.newgame-btn{
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border-radius: 5px;
+    font-size: 18px;
+    background: transparent;
+    padding: 10px;
+
+}
